@@ -1,0 +1,1573 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<title>HUNGRY PEOPLE</title>
+	<meta name="description" content="">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/1882a5ef6b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<nav class="mobile-menu">
+		<input type="checkbox" id="checkbox" class="mobile-menu__checkbox">
+		<label for="checkbox" onclick="burger()" class="mobile-menu__btn">
+			<div class="mobile-menu__icon"></div>
+		</label>
+	</nav>
+	<section class="sticky-menu">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-10 offset-lg-1">
+					<div class="nav">
+						<a href="#home" class="link">
+							HOME
+						</a>
+						<a href="#about" class="link">
+							ABOUT
+						</a>
+						<a href="#team" class="link">
+							TEAM
+						</a>
+						<a href="#booking" class="link">
+							BOOKING
+						</a>
+						<a href="#menu" class="link">
+							MENU
+						</a>
+						<a href="#galerie" class="link">
+							GALERIE
+						</a>
+						<a href="#events" class="link">
+							EVENTS
+						</a>
+						<a href="#contact" class="link">
+							CONTACT
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="mobile-menu__container">
+			<ul class="mobile-menu__list">
+				<li class="mobile-menu__item"><a href="#block1" class="mobile-menu__link s16 link">Преимущества</a>
+				</li>
+				<li class="mobile-menu__item"><a href="#block2" class="mobile-menu__link s16 link">О курсе</a>
+				</li>
+				<li class="mobile-menu__item"><a href="#block4" class="mobile-menu__link s16 link">Другие курсы</a></li>
+				<li class="mobile-menu__item"><a href="#block5" class="mobile-menu__link s16 link">Почему Python</a>
+				</li>
+				<li class="mobile-menu__item"><a href="#block6" class="mobile-menu__link s16 link">О нас</a>
+				</li>
+				<li class="mobile-menu__item"><a href="#block7" class="mobile-menu__link s16 link">Отзывы</a>
+				</li>
+
+			</ul>
+		</div>
+	</section>
+
+	<header class="header" id="home">
+		<div class="container">
+			<div class="row mb__150">
+				<div class="col-lg-5 d-none d-lg-block">
+					<div class="nav">
+						<a href="#home" class="link">
+							HOME
+						</a>
+						<a href="#about" class="link">
+							ABOUT
+						</a>
+						<a href="#team" class="link">
+							TEAM
+						</a>
+						<a href="#booking" class="link">
+							BOOKING
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-2 mt__25 text-center">
+					<img src="images/logo.png" alt="images" class="wheel">
+				</div>
+				<div class="col-lg-5 d-none d-lg-block">
+					<div class="nav">
+						<a href="#menu" class="link">
+							MENU
+						</a>
+						<a href="#galerie" class="link">
+							GALERIE
+						</a>
+						<a href="#events" class="link">
+							EVENTS
+						</a>
+						<a href="#contact" class="link">
+							CONTACT
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-1">
+					<p class="s12 fw-700 white rotate">
+						Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM
+					</p>
+				</div>
+				<div class="col-lg-8 offset-lg-1 text-center">
+					<p class="s12 white ls05 fw-700">
+						RESTAURANT
+					</p>
+					<h1>
+						hungry people
+					</h1>
+					<div class="bord mb__30"></div>
+					<div class="d-flex justify-content-center">
+						<a href="#booking" class="btn-y link">
+							BOOK TABLE
+						</a>
+						<a href="#about" class="btn-w link">
+							EXPLORE
+						</a>
+					</div>
+					<div class="text-center d-block mx-auto">
+						<a href="#about" class="link">
+							<img src="images/down-btn.png" alt="images" class="mouse">
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-1 social-icon">
+					<div>
+						<a href="#">
+							<img src="images/facebook.png" alt="images">
+						</a>
+					</div>
+					<div>
+						<a href="#">
+							<img src="images/twitter.png" alt="images">
+						</a>
+					</div>
+					<div>
+						<a href="#">
+							<img src="images/instagram.png" alt="images">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="block1" id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 text-center">
+					<h2>
+						about us
+					</h2>
+					<div class="bord mb__20"></div>
+					<p class="s18 fw-700 mb__20">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a,
+						tempor magna.
+					</p>
+					<p class="s18">
+						Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices
+						ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem
+						quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+					</p>
+				</div>
+				<div class="col-lg-5">
+					<img src="images/i2.png" alt="images">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="block1 block2" id="team">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 order-1 order-lg-1">
+					<p class="s12 white text-center ls05 fw-700 mb__40">
+						OUR TEAM
+					</p>
+				</div>
+				<div class="col-lg-5 offset-lg-1 order-3 order-lg-2">
+					<img src="images/i4.png" alt="images">
+				</div>
+				<div class="col-lg-6 text-center order-2 order-lg-3">
+					<h2 class="white">
+						MASTER CHEF
+					</h2>
+					<div class="bord mb__20"></div>
+					<p class="s18 fw-700 mb__20 white">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a,
+						tempor magna.
+					</p>
+					<p class="s18 op9 white">
+						Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices
+						ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem
+						quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="block1 block3" id="booking">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 text-center">
+					<h2>
+						book a table
+					</h2>
+					<div class="bord mb__20"></div>
+					<div class="table-book">
+						<form action="#">
+							<div class="d-flex">
+								<input type="text" required placeholder="Name">
+								<input type="email" required placeholder="Email" class="ml__10">
+							</div>
+							<div class="d-flex">
+								<input type="tel" required placeholder="Phone">
+								<div class="select relative">
+									<select class="ml__10" required>
+										<option disabled selected>
+											People
+										</option>
+										<option>
+											1 persons
+										</option>
+										<option>
+											2 persons
+										</option>
+									</select>
+								</div>
+							</div>
+							<div class="d-flex">
+								<input type="date" required placeholder="Date (mm/dd)">
+								<div class="select relative">
+									<select class="ml__10" required>
+										<option disabled selected>
+											Time
+										</option>
+										<option>
+											10.00
+										</option>
+										<option>
+											11.00
+										</option>
+									</select>
+								</div>
+							</div>
+							<button>
+								BOOK NOW
+							</button>
+						</form>
+					</div>
+				</div>
+				<div class="col-lg-5">
+					<img src="images/i1.png" alt="images">
+				</div>
+				<div class="col-12">
+					<p class="s12 text-center">
+						Mon - Fri: <span class="fw-700">8PM - 10PM,</span> Sat - Sun: <span class="fw-700">8PM -
+							3AM,</span> Phone: <span class="fw-700">+40 729 131 637/+40 726 458 782</span>
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="block1 block2 block4">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 order-1 order-lg-1">
+					<p class="s12 white text-center ls05 fw-700 mb__40 text-uppercase">
+						specialties
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="container single-slide">
+			<div class="row">
+				<div class="col-lg-5 offset-lg-1 order-2 order-lg-1">
+					<img src="images/i3.png" alt="images">
+				</div>
+				<div class="col-lg-6 text-center order-1 order-lg-2">
+					<h2 class="white">
+						chocolate pancakes
+					</h2>
+					<div class="bord mb__20"></div>
+					<p class="s18 fw-700 mb__20 white">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a,
+						tempor magna.
+					</p>
+					<p class="s18 op9 white">
+						Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices
+						ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem
+						quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-5 offset-lg-1 order-2 order-lg-1">
+					<img src="images/i2.png" alt="images">
+				</div>
+				<div class="col-lg-6 text-center order-1 order-lg-2">
+					<h2 class="white">
+						coals
+					</h2>
+					<div class="bord mb__20"></div>
+					<p class="s18 fw-700 mb__20 white">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a,
+						tempor magna.
+					</p>
+					<p class="s18 op9 white">
+						Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices
+						ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem
+						quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-5 offset-lg-1 order-2 order-lg-1">
+					<img src="images/i1.png" alt="images">
+				</div>
+				<div class="col-lg-6 text-center order-1 order-lg-2">
+					<h2 class="white">
+						clock
+					</h2>
+					<div class="bord mb__20"></div>
+					<p class="s18 fw-700 mb__20 white">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a,
+						tempor magna.
+					</p>
+					<p class="s18 op9 white">
+						Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices
+						ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem
+						quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="block5" id="menu">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 text-center">
+					<h2>
+						DELICIOUS MENU
+					</h2>
+					<div class="bord mb__20"></div>
+					<p class="s18 fw-700 mb__50">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis <br> at velit maximus, molestie
+						est a, tempor magna.
+					</p>
+				</div>
+				<div class="col-lg-8 offset-lg-2 mb__50">
+					<li class="menu-btn s12 fw-700 js-tab-trigger" data-tab="1">
+						SOUPE
+					</li>
+					<li class="menu-btn s12 fw-700 js-tab-trigger" data-tab="2">
+						PIZZA
+					</li>
+					<li class="menu-btn s12 fw-700 js-tab-trigger" data-tab="3">
+						PASTA
+					</li>
+					<li class="menu-btn s12 fw-700 js-tab-trigger" data-tab="4">
+						DESERT
+					</li>
+					<li class="menu-btn s12 fw-700 js-tab-trigger" data-tab="5">
+						WINE
+					</li>
+					<li class="menu-btn s12 fw-700 js-tab-trigger" data-tab="6">
+						beer
+					</li>
+					<li class="menu-btn s12 fw-700 js-tab-trigger" data-tab="7">
+						DRINKS
+					</li>
+				</div>
+			</div>
+			<div class="row tab-content__item js-tab-content" data-tab="1">
+				<div class="col-sm-6 col-lg-4">
+					<p class="s18 nameOfDish mb-0">
+						SOUPE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						SOUPE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						SOUPE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						SOUPE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						SOUPE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						SOUPE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						SOUPE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+				</div>
+				<div class="col-sm-6 col-lg-4 price-left">
+					<p class="s18 nameOfDish mb-0">
+						SOUPE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						SOUPE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						SOUPE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						SOUPE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						SOUPE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						SOUPE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						SOUPE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+				</div>
+				<div class="col-sm-12 col-lg-4 price-left">
+					<p class="s18 nameOfDish mb-0">
+						SOUPE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						SOUPE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						SOUPE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						SOUPE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						SOUPE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						SOUPE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						SOUPE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+				</div>
+			</div>
+			<div class="row tab-content__item js-tab-content active" data-tab="2">
+				<div class="col-sm-6 col-lg-4">
+					<p class="s18 nameOfDish mb-0">
+						PIZZA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						PIZZA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						PIZZA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						PIZZA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						PIZZA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						PIZZA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						PIZZA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+				</div>
+				<div class="col-sm-6 col-lg-4 price-left">
+					<p class="s18 nameOfDish mb-0">
+						PIZZA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						PIZZA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						PIZZA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						PIZZA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						PIZZA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						PIZZA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						PIZZA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+				</div>
+				<div class="col-sm-12 col-lg-4 price-left">
+					<p class="s18 nameOfDish mb-0">
+						PIZZA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						PIZZA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						PIZZA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						PIZZA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						PIZZA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						PIZZA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						PIZZA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+				</div>
+			</div>
+			<div class="row tab-content__item js-tab-content" data-tab="3">
+				<div class="col-sm-6 col-lg-4">
+					<p class="s18 nameOfDish mb-0">
+						PASTA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						PASTA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						PASTA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						PASTA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						PASTA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						PASTA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						PASTA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+				</div>
+				<div class="col-sm-6 col-lg-4 price-left">
+					<p class="s18 nameOfDish mb-0">
+						PASTA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						PASTA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						PASTA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						PASTA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						PASTA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						PASTA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						PASTA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+				</div>
+				<div class="col-sm-12 col-lg-4 price-left">
+					<p class="s18 nameOfDish mb-0">
+						PASTA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						PASTA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						PASTA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						PASTA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						PASTA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						PASTA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						PASTA QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+				</div>
+			</div>
+			<div class="row tab-content__item js-tab-content" data-tab="4">
+				<div class="col-sm-6 col-lg-4">
+					<p class="s18 nameOfDish mb-0">
+						DESERT QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						DESERT QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						DESERT QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						DESERT QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						DESERT QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						DESERT QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						DESERT QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+				</div>
+				<div class="col-sm-6 col-lg-4 price-left">
+					<p class="s18 nameOfDish mb-0">
+						DESERT QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						DESERT QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						DESERT QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						DESERT QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						DESERT QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						DESERT QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						DESERT QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+				</div>
+				<div class="col-sm-12 col-lg-4 price-left">
+					<p class="s18 nameOfDish mb-0">
+						DESERT QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						DESERT QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						DESERT QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						DESERT QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						DESERT QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						DESERT QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						DESERT QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+				</div>
+			</div>
+			<div class="row tab-content__item js-tab-content" data-tab="5">
+				<div class="col-sm-6 col-lg-4">
+					<p class="s18 nameOfDish mb-0">
+						WINE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						WINE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						WINE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						WINE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						WINE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						WINE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						WINE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+				</div>
+				<div class="col-sm-6 col-lg-4 price-left">
+					<p class="s18 nameOfDish mb-0">
+						WINE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						WINE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						WINE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						WINE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						WINE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						WINE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						WINE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+				</div>
+				<div class="col-sm-12 col-lg-4 price-left">
+					<p class="s18 nameOfDish mb-0">
+						WINE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						WINE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						WINE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						WINE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						WINE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						WINE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						WINE QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+				</div>
+			</div>
+			<div class="row tab-content__item js-tab-content" data-tab="6">
+				<div class="col-sm-6 col-lg-4">
+					<p class="s18 nameOfDish mb-0">
+						BEER QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						BEER QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						BEER QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						BEER QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						BEER QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						BEER QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						BEER QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+				</div>
+				<div class="col-sm-6 col-lg-4 price-left">
+					<p class="s18 nameOfDish mb-0">
+						BEER QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						BEER QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						BEER QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						BEER QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						BEER QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						BEER QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						BEER QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+				</div>
+				<div class="col-sm-12 col-lg-4 price-left">
+					<p class="s18 nameOfDish mb-0">
+						BEER QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						BEER QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						BEER QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						BEER QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						BEER QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						BEER QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						BEER QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+				</div>
+			</div>
+			<div class="row tab-content__item js-tab-content" data-tab="7">
+				<div class="col-sm-6 col-lg-4">
+					<p class="s18 nameOfDish mb-0">
+						DRINKS QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						DRINKS QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						DRINKS QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						DRINKS QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						DRINKS QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						DRINKS QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						DRINKS QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+				</div>
+				<div class="col-sm-6 col-lg-4 price-left">
+					<p class="s18 nameOfDish mb-0">
+						DRINKS QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						DRINKS QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						DRINKS QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						DRINKS QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						DRINKS QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						DRINKS QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						DRINKS QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+				</div>
+				<div class="col-sm-12 col-sm-6 col-lg-4 price-left">
+					<p class="s18 nameOfDish mb-0">
+						DRINKS QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						DRINKS QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						DRINKS QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						DRINKS QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						DRINKS QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						DRINKS QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+					<p class="s18 nameOfDish mb-0">
+						DRINKS QUATRO STAGIONI . . . . 55,68 USD
+					</p>
+					<p class="s12 dish-description mb__30">
+						Integer ullamcorper neque eu purus euismod
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="block1 block6" id="events">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<p class="s12 white text-center ls05 fw-700 mb__40">
+						PRIVATE EVENTS
+					</p>
+				</div>
+				<div class="col-lg-5 offset-lg-1 block6-after">
+					<img src="images/i6.png" alt="images">
+				</div>
+				<div class="col-lg-5">
+					<img src="images/i5.png" alt="images">
+				</div>
+				<div class="col-12">
+					<p class="s12 text-center">
+						For private events please call: <span class="fw-700">+40 729 131 637/+40 726 458 782</span> or
+						use the contact form.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="block7" id="galerie">
+		<div class="container-fluid p-0 m-0 overflowh">
+			<div class="row">
+				<div class="col-12">
+					<div class="d-flex single-slide2">
+						<div class="shrink">
+							<img src="images/i7.jpg" alt="images">
+						</div>
+						<div class="shrink">
+							<img src="images/i8.jpg" alt="images">
+						</div>
+						<div class="shrink">
+							<img src="images/i9.jpg" alt="images">
+						</div>
+						<div class="shrink">
+							<img src="images/i10.jpg" alt="images">
+						</div>
+						<div class="shrink">
+							<img src="images/i7.jpg" alt="images">
+						</div>
+						<div class="shrink">
+							<img src="images/i8.jpg" alt="images">
+						</div>
+						<div class="shrink">
+							<img src="images/i9.jpg" alt="images">
+						</div>
+						<div class="shrink">
+							<img src="images/i10.jpg" alt="images">
+						</div>
+						<div class="shrink">
+							<img src="images/i7.jpg" alt="images">
+						</div>
+						<div class="shrink">
+							<img src="images/i8.jpg" alt="images">
+						</div>
+						<div class="shrink">
+							<img src="images/i9.jpg" alt="images">
+						</div>
+						<div class="shrink">
+							<img src="images/i10.jpg" alt="images">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="block8" id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 text-center">
+					<h2>
+						CONTACT
+					</h2>
+					<div class="bord mb__20"></div>
+					<p class="s18 fw-700 mb__50">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis <br> at velit maximus, molestie
+						est a, tempor magna.
+					</p>
+					<div class="contact-form">
+						<form action="#">
+							<div class="d-flex mb__10">
+								<input type="text" required placeholder="Name">
+								<input type="email" required placeholder="Email" class="ml__10">
+								<input type="tel" required placeholder="Phone" class="ml__10">
+							</div>
+							<div class="mb__10">
+								<textarea name="textarea" placeholder="Message"></textarea>
+							</div>
+							<div class="d-flex flex-adress">
+								<div class="d-flex justify-content-between align-items-center adress">
+									<div class="d-flex">
+										<i class="fa fa-map-marker" aria-hidden="true"></i>
+										<p class="s12 ml__10 fw-700">
+											5th London Boulevard, U.K.
+										</p>
+									</div>
+									<div class="d-flex">
+										<i class="fa fa-phone" aria-hidden="true"></i>
+										<p class="s12 ml__10 fw-700">
+											+40 729 131 637/+40 726 458 782
+										</p>
+									</div>
+									<div>
+										<i class="fa fa-envelope" aria-hidden="true"></i>
+										<a href="mailto:office@mindblister.com" class="s12 ml__10 fw-700">
+											office@mindblister.com
+										</a>
+									</div>
+								</div>
+								<button>
+									SEND MESSAGE
+								</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<section class="block9">
+		<div class="container-fluid p-0 m-0">
+			<div class="row p-0 m-0">
+				<div class="col-12 p-0 m-0">
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d82818.19632580968!2d37.62534850092228!3d55.73163570805406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414ab5269715db59%3A0x3c9ede46f385b391!2z0JLQvtC70LPQvtCz0YDQsNC00YHQutC40Lkg0L_RgC3Rgi4sIDM4LCDQnNC-0YHQutCy0LAsIDEwOTMxNg!5e0!3m2!1sru!2sru!4v1607490586500!5m2!1sru!2sru"
+						width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen=""
+						aria-hidden="false" tabindex="0"></iframe>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<p class="s12 text-center">
+						&#169; Copyright <span class="fw-700">Mindblister</span> 2019
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script>
+		function loadScript(src) {
+			let script = document.createElement('script');
+			script.src = src;
+			script.async = false;
+			document.body.append(script);
+		}
+
+		function func() {
+			//loadScript("js/jquery-3.4.1.min.js");
+			loadScript("js/bootstrap.min.js");
+			//loadScript("js/slick.min.js");
+			loadScript("js/main.js");
+			loadScript("js/contactform.js");
+		}
+		setTimeout(func, 500);
+	</script>
+
+	<script>
+		$('.single-slide').slick({
+			dots: true,
+			arrows: false,
+			fade: true,
+		});
+		$('.single-slide2').slick({
+			dots: false,
+			arrows: false,
+			fade: false,
+			slidesToShow: 8,
+			slidesToScroll: 2,
+			variableWidth: true,
+			responsive: [{
+					breakpoint: 1024,
+					settings: {
+						slidesToShow: 3,
+						slidesToScroll: 3,
+						infinite: true,
+						dots: true
+					}
+				},
+				{
+					breakpoint: 600,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 1
+					}
+				},
+				{
+					breakpoint: 480,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1
+					}
+				}
+			]
+		});
+	</script>
+
+
+	<div class="modal fade my-forms-modal" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+		style="z-index: 55555;">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">
+							&#10006;
+						</span>
+					</button>
+				</div>
+				<div class="modal-body text-center">
+					<div class="s27 fw-700 mb__40">Спасибо</div>
+					<p class="mb__35 fw-600 text-center">Ваш сообщение успешно отправлено. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
